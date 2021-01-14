@@ -1,0 +1,29 @@
+{
+  "name": "coding-node",
+  "version": "0.0.1",
+  "description": "Node js basic curd operation with test cases",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "tests": "mocha test/**/*.pets.js",
+    "db:migrate": "knex --knexfile ./knex.js migrate:latest",
+    "db:rollback": "knex --knexfile ./knex.js migrate:rollback"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.1.2",
+    "supertest": "^4.0.2",
+    "knex": "^0.13.0",
+    "objection": "^0.8.3",
+    "pg": "^6.4.1",
+    "chai-http": "^4.3.0"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.14"
+  }
+}
