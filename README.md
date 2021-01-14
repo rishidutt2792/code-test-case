@@ -4,7 +4,7 @@ This is a repository for applicants to the Network Software submit coding exerci
 ## Getting Started:
 Built for Node Version: 12.x
 
-1. Connect to a postgres data and copy credentials in knex.js file.
+1. Connect to a postgres database and copy credentials in knex.js file.
 2. `npm install` within project folder to install dependencies.
 3. Run command `npm run db:migrate` to create table in database
 4. Run command `npm start` to start the server on port:8000.
