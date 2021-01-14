@@ -8,7 +8,7 @@ Built for Node Version: 12.x
 2. `npm install` within project folder to install dependencies.
 3. Run command `npm run db:migrate` to create table in database
 4. Run command `npm start` to start the server on port:8000.
-5. Run command `npm run tests` to run sample unit tests.
+5. Run command `npm run tests` to run sample pets unit tests.
 
 ## Api Endpoints
 1. Get All pets - Get /pets
